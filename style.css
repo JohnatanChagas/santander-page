@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-superior {
+    padding: 25px;
+}
+
+.logo {
+    width: 130px;
+
+}
+
+.link-voce {
+    color: #ff0000;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.link-empresa {
+    color: #000000;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.background {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 60px;
+    margin-left: 200px;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+li {
+    height: 170px;
+    width: 190px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+li:hover {
+    cursor: pointer;
+    transform: translateY(-15px);
+}
+
+.imagens-produto {
+    width: 60px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.background1 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menu-fixo {
+    background-color: #ff0000;
+    height: 60px;
+    padding-top: 18px;
+    
+}
+
+.link-menu-fixo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-menu-fixo {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 30px;
+}
