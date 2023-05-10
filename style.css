@@ -89,7 +89,8 @@ p {
 }
 
 .menu-fixo {
-    background-color: #ff0000;
+    margin-top: -30px;
+    background-color: #ec0000;
     height: 60px;
     padding-top: 18px;
     
